@@ -1,18 +1,22 @@
 <div class="header row">
   <div class="col-5 logo">
-    <p class="logo-text">F1 Info</p>
+    <a class="logo-text" routerLink="landing-page">F1 Info</a>
   </div>
   <div class="col-7 nav">
-    <ul class="nav-list">
-      <li>Home</li>
-      <li>Teams</li>
-      <li>About</li>
-    </ul>
-    <a href="#"
-      ><img
-        class="menu_icon"
-        src="../../assets/burger-menu-svgrepo-com.svg"
-        alt="menu"
-    /></a>
+    <div class="col-11">
+      <ul class="nav-list">
+        <li><a routerLink="landing-page">Home</a></li>
+        <li><a routerLink="teams-page">Teams</a></li>
+        <li>About</li>
+      </ul>
+    </div>
+    <div class="col-1 burgerMenu">
+      <a href="#"
+        ><img
+          class="menu_icon"
+          src="../../assets/burger-menu-svgrepo-com.svg"
+          alt="menu"
+      /></a>
+    </div>
   </div>
 </div>

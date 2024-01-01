@@ -7,15 +7,68 @@
       make you; the new comer comfortable with the sport and clear your doubts
     </p>
   </div>
-  <img
-    class="scroll_arrow"
-    src="../../assets/down-arrow-svgrepo-com.svg"
-    alt="scroll down"
-  />
+  <a (click)="scrollClick()">
+    <img
+      class="scroll_arrow"
+      src="../../assets/down-arrow-svgrepo-com.svg"
+      alt="scroll down"
+    />
+  </a>
 </div>
-<div class="underbanner">
+<div class="underbanner" id="underbanner">
   <h3>Explore</h3>
-  <p>Explore this site to find all infomation on F1</p>
+  <p class="card_det">Explore this site to find all infomation on F1</p>
+  <div class="cards row">
+    <div class="history col">
+      <div class="card" style="width: 18rem">
+        <img src="../../assets/lotusF1.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="lastSeason col">
+      <div class="cardView">
+        <div class="cardText">
+          <p>
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="currentSeason col">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="rumourMills col">
+      <div class="card" style="width: 18rem">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="footerLanding">
   <ul>

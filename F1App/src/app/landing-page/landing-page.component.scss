@@ -31,6 +31,9 @@
     width: 80px;
     height: 80px;
     animation: scroll_down 2s linear infinite;
+    &:hover{
+        cursor: pointer;
+    }
 }
 
 @keyframes scroll_down {
@@ -42,5 +45,49 @@
     }
     100%{
         top: 78%;
+    }
+}
+
+.underbanner{
+    height: 640px;
+    h3{
+        font-size: 50px;
+        font-weight:bold ;
+        padding-left: 20px;
+    }
+    .card_det{
+        padding-left: 20px;
+    }
+    .cards{
+        padding:20px 10px;
+        margin-left: 10px;
+    }
+    .col{
+        padding: 0 10px;
+        text-align: center;
+    }
+}
+.cardView{
+    height: 350px;
+    width: fit-content;
+    background-image: url("../../assets/lotusF1.jpg");
+    position: relative;
+    filter: blur(0px);
+    transition: filter 0.5s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    .cardText{
+        position: relative;
+        top: 70%;
+        z-index: 2;
+        filter: blur(0px);
+    }
+    &:hover{
+        filter: blur(2px);
+        .cardText{
+            color: #fff;
+            z-index: 3;
+        }
     }
 }

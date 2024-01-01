@@ -1,0 +1,30 @@
+.header{
+    background-color: red;
+    display:flex;
+    .logo-text{
+        font-size: xx-large;
+        font-weight: bold;
+        padding-left: 10px;
+    }
+    .nav{
+        .nav-list{
+            display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        // width: 100%;
+        li{
+            padding: 0 10px;
+            list-style-type: none;
+        }
+        .menu_icon{
+            width: 25px;
+            height: 25px;
+        }
+    }
+    }
+    

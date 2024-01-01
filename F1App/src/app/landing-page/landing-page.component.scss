@@ -1,0 +1,46 @@
+.banner{
+    height: 800px;
+    // background-image: url(../../assets/FIA_car.jpg);
+    background: linear-gradient(to left,rgba(255, 255, 255, 0)0%, rgb(255,255,255,0.5)50%, rgb(255,255,255,1)70%),url(../../assets/2022-f1-car-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x: 20px;
+    // background-position-y: 5px;
+}
+.banner_text{
+    position: relative;
+    top:25%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-left: 15px;
+    font-size: x-large;
+    font-weight: 900;
+    h1{
+        font-size: 50px;
+        font-weight:bold ;
+    }
+
+}
+.scroll_arrow{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    animation: scroll_down 2s linear infinite;
+}
+
+@keyframes scroll_down {
+    0%{
+        top:78%
+    }
+    50%{
+        top: 82%;
+    }
+    100%{
+        top: 78%;
+    }
+}

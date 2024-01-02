@@ -1,0 +1,111 @@
+.RBPage{
+    padding-top: 90px;
+    background-color: #071C3A;
+    height: 1500px;
+}
+.mainTeam{
+    height: 1000px !important;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../../../assets/redbull-logo-svgrepo-com.png);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: center;
+    padding: 0%;
+}
+.teamName{
+    height: 400px;
+    background-image: url(../../../assets/rb19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+    position: relative;
+}
+.teamLogo{
+    img{
+        // width: fit-content;
+        height: 200px;
+        margin: 10px;
+        border-radius: 100px;
+        border: goldenrod 15px solid;
+        position: absolute;
+        top: 40%;
+    }
+    
+}
+.name{
+    position: relative;
+    h1{
+        position: absolute;
+        top: 80%;
+        font-weight: 900;
+        font-size: 50px;
+    }
+}
+.standings{
+    img{
+        padding-top: 30px;
+        width: 100px;
+        height: 100px;
+    }
+}
+.mainTeam{
+    height: 500px;
+    padding: 40px;
+    h3{
+        color: #DF003C;
+        font-size: 50px;
+        font-weight:bold ;
+    }
+    p{
+        color: #FFD300;
+    }
+    .teamPrincipal{
+        text-align: center;
+        h4{
+            color: #fff;
+            font-weight: bold;
+        }
+        p{
+            color: #fff;
+            font-weight: bold
+        };
+    }
+}
+.team_img{
+    img{
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+                
+     }
+    
+            
+}
+.teamDrivers{
+    text-align: center;
+    padding-top: 30px;
+    h4{
+        color: #fff;
+        font-weight: bold;
+    }
+}
+.max_img, .checo_img{
+    display: flex;
+    justify-content: center;
+    
+}
+.max, .checo {
+    p{
+        text-align: center;
+    }
+}
+.max_img{
+    img{
+        border: goldenrod 5px solid;
+
+    }
+}
+.checo_img{
+    img{
+        border: silver 5px solid;
+    }
+}    

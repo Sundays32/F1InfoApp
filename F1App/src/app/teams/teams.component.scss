@@ -14,6 +14,7 @@
             position: absolute;
             top: 55%;
             left: 20%;
+            visibility: hidden;
         }
     }
     .RB{
@@ -39,6 +40,35 @@
     }
     .AstonM{
         background-image: url(../../assets/astonMartinF1logo.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    .Alpine{
+        background-image: url(../../assets/alpinelogo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .Williams{
+        background-image: url(../../assets/williamslogo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .AlphaT{
+        background-image: url(../../assets/AlphaTaurilogo.png);
+        background-position: center;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position-y:35px ;
+    }
+    .Alfa{
+        background-image: url(../../assets/alfaromeologo.jpg);
+        background-position: center;
+        background-size: cover;
+        background-position-y: -3.5px;
+        background-position-x: -18px;
+    }
+    .Haas{
+        background-image: url(../../assets/haasf1logo.png);
         background-position: center;
         background-size: cover;
     }

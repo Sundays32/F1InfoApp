@@ -7,19 +7,69 @@
       make you; the new comer comfortable with the sport and clear your doubts
     </p>
   </div>
-  <img
-    class="scroll_arrow"
-    src="../../assets/down-arrow-svgrepo-com.svg"
-    alt="scroll down"
-  />
+  <a (click)="scrollClick()">
+    <img
+      class="scroll_arrow"
+      src="../../assets/down-arrow-svgrepo-com.svg"
+      alt="scroll down"
+    />
+  </a>
 </div>
-<div class="underbanner">
+<div class="underbanner" id="underbanner">
   <h3>Explore</h3>
-  <p>Explore this site to find all infomation on F1</p>
+  <p class="card_det">Explore this site to find all infomation on F1</p>
+  <div class="cards row">
+    <div class="history exploreCard col">
+      <div class="cardView hist"></div>
+      <div class="cardText">
+        <h4>History</h4>
+        <p>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+    <div class="lastSeason exploreCard col">
+      <div class="cardView lS"></div>
+      <div class="cardText">
+        <h4>Last Season</h4>
+        <p>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+    <div class="currentSeason exploreCard col">
+      <div class="cardView cS"></div>
+      <div class="cardText">
+        <h4>Current Season</h4>
+        <p>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+    <div class="rumourMills exploreCard col">
+      <div class="cardView rM"></div>
+      <div class="cardText">
+        <h4>Rumour</h4>
+        <p>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="footerLanding">
   <ul>
-    <li>Email</li>
+    <li>
+      Contact:
+      <img
+        src="../../assets/email-open-svgrepo-com.svg"
+        alt="email"
+      />sandeshrao2000@gmail.com
+    </li>
     <li>Thanks, BYE!</li>
   </ul>
 </div>

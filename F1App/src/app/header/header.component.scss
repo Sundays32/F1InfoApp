@@ -2,10 +2,11 @@
     position: fixed;
     background-color: #ea0500;
     height: 90px;
-    width: 102%;
+    width: 101%;
     display:flex;
     align-items: center;
     z-index: 5;
+    overflow: hidden;
     
     .logo-text{
         font-size: xx-large;

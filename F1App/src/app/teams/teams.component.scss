@@ -1,0 +1,48 @@
+.teamsPage{
+    padding-top: 90px;
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.8)0%, rgb(0,0,0,0.8)100%),url(../../assets/checkeredFlag.jpg);
+    height: 1000px;
+
+    .teamCard{
+        width: 130px;
+        height: 130px;
+        border-radius: 65px;
+        margin: 0 10px;
+        background-color: aqua;
+        position: relative;
+        .cardText{
+            position: absolute;
+            top: 55%;
+            left: 20%;
+        }
+    }
+    .RB{
+        background-image: url(../../assets/RBLogo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .Merc{
+        background-image: url(../../assets/MercedesLogo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .Ferrari{
+        background-image: url(../../assets/ferrarilogo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .Mclaren{
+        background-image: url(../../assets/MclarenLogo.webp);
+        background-position: center;
+        background-size:200px;
+        
+    }
+    .AstonM{
+        background-image: url(../../assets/astonMartinF1logo.webp);
+        background-position: center;
+        background-size: cover;
+    }
+    .teams_cards{
+        margin: 0 10px;
+    }
+}

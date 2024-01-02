@@ -10,7 +10,7 @@ export class LandingPageComponent {
   public scrollClick(){
     // const target =this.el.nativeElement.querySelector("#underbanner");
     // this.renderer.setProperty(target,'scrollTop',target.scrollTop+500)
-    window.scrollTo({top:710, behavior:'smooth'});
+    window.scrollTo({top:730, behavior:'smooth'});
     
   }
   

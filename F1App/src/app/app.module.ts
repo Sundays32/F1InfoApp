@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { TeamsComponent } from './teams/teams.component';
+import { TeamComponent } from './teams/team/team.component';
+import { RedbullComponent } from './teams/redbull/redbull.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LandingPageComponent,
-    TeamsComponent
+    TeamsComponent,
+    TeamComponent,
+    RedbullComponent
   ],
   imports: [
     BrowserModule,

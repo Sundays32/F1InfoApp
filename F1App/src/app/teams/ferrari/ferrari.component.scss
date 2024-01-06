@@ -1,9 +1,9 @@
-$primary_Color:#030E1D;
-$secondaryColor:#DF003C;
-$tertiaryColor:#FFD300;
-$quarternary_Color:#fff;
-$dr1_Color:goldenrod;
-$dr2_Color:silver;
+$primary_Color:#EF1A2D;
+$secondaryColor:#FFF200;
+$tertiaryColor:#FFFFFF;
+$quarternary_Color:#000000;
+$dr1_Color:#FFFFFF;
+$dr2_Color:#FFF200;
 .teamPage{
     padding-top: 90px;
     background-color: $primary_Color;
@@ -11,27 +11,27 @@ $dr2_Color:silver;
 }
 .mainTeam{
     height: 1000px !important;
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../../../assets/redbull-logo-svgrepo-com.png);
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../../../assets/ferrarilogo.png);
     background-repeat: no-repeat;
-    background-size: 1520px;
+    background-size: 4500px;
     background-position: center;
     padding: 0%;
 }
 .teamName{
     height: 400px;
-    background-image: url(../../../assets/rb19.jpg);
+    background-image: url(../../../assets/sf23.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -150px;
+    background-position-y: -450px;
     position: relative;
 }
 .teamLogo{
     img{
-        // width: fit-content;
+        width: 200px;
         height: 200px;
         margin: 10px;
         border-radius: 100px;
-        border: goldenrod 15px solid;
+        border: $secondaryColor 15px solid;
         position: absolute;
         top: 40%;
     }
@@ -44,7 +44,7 @@ $dr2_Color:silver;
         top: 80%;
         font-weight: 900;
         font-size: 50px;
-        color: $primary_Color;
+        color: $secondaryColor;
     }
 }
 .standings{
@@ -68,11 +68,11 @@ $dr2_Color:silver;
     .teamPrincipal{
         text-align: center;
         h4{
-            color: $quarternary_Color;
+            color: $tertiaryColor;
             font-weight: bold;
         }
         p{
-            color: $quarternary_Color;
+            color: $tertiaryColor;
             font-weight: bold
         };
     }
@@ -91,7 +91,7 @@ $dr2_Color:silver;
     text-align: center;
     padding-top: 30px;
     h4{
-        color: $quarternary_Color;
+        color: $tertiaryColor;
         font-weight: bold;
     }
 }
@@ -174,7 +174,7 @@ $dr2_Color:silver;
                 height: 0px;
             }
             em{
-                color: $tertiaryColor;
+                color:$tertiaryColor;
             }
             b{
                 color: $secondaryColor;
@@ -216,5 +216,13 @@ $dr2_Color:silver;
                 margin-bottom: 40px;
             }
         }
+    }
+    .cavalino{
+        
+        width: 150px !important;
+        height: 100px !important;
+        margin: 0 -30px !important;
+        
+        
     }
 }

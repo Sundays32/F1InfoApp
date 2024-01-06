@@ -1,0 +1,199 @@
+<div class="teamPage">
+  <div class="teamName row">
+    <div class="teamLogo col-2">
+      <img src="../../../assets/ferrarilogo - Copy.jpg" alt="RB logo" />
+    </div>
+    <div class="name col-9">
+      <h1>Scuderia Ferrari</h1>
+    </div>
+    <div class="standings col-1">
+      <img src="../../../assets/bronze.svg" alt="constructors" />
+    </div>
+  </div>
+  <div class="mainTeam">
+    <div class="team_det">
+      <h3>Team</h3>
+      <p>Meet the team.</p>
+      <div class="teamPrincipal">
+        <h4>Team Principal</h4>
+        <div class="team_img">
+          <img src="../../../assets/Fred_Ferrari.jpg" alt="Fred Vasseur" />
+        </div>
+        <p>Frederic Vasseur</p>
+      </div>
+      <div class="teamDrivers row">
+        <h4>Drivers</h4>
+        <div class="dr1 col">
+          <div class="team_img dr1_img">
+            <img src="../../../assets/f1_2023_cl_fer_lg.png" alt="Max" />
+          </div>
+          <p>Charles Leclerc</p>
+        </div>
+        <div class="dr2 col">
+          <div class="team_img dr2_img">
+            <img src="../../../assets/f1_2023_cs_fer_lg.png" alt="Max" />
+          </div>
+          <p>Carlos Sainz</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backgroundInfo">
+    <div class="info">
+      <h3>Background Information</h3>
+      <h5>
+        Ferrari have a long and storied history in F1, being the sport's oldest
+        and most successful team.
+      </h5>
+      <p>
+        Founded in 1929 by Enzo Ferrari, the team was initially created with the
+        intention of entering amateur drivers in various races.
+      </p>
+      <p>
+        He then gathered a group that included over 40 drivers, most of whom
+        competed in various Alfa Romeo 8C cars, while Ferrari himself continued
+        racing until the the birth of his son, Dino, in 1932. The prancing horse
+        blazon made its first appearance at the 1932 Spa 24 Hours on a two-car
+        team of Alfa Romeo 8C 2300 Spiders, which finished first and second.
+      </p>
+      <p>
+        The first F1 World Championship was established in 1950, with Scuderia
+        Ferrari taking part from the beginning. To this day, the Italian outfit
+        are the only team to have competed in every season since its inception.
+      </p>
+      <p>
+        With Alfa Romeo withdrawing from the sport after the 1951 season,
+        Ferrari went on to win almost every race in 1952 with the 2.0 L 4-cyl
+        Ferrari Tipo 500, with Ascari clinching the championship after winning
+        six consecutive races. Ascari took the title again the following
+        year.Ferrari continued to win races in the years that followed, though
+        it wasn't until 1958 that they took another Drivers' Championship. Mike
+        Hawthorn won in the Ferrari 246 F1 with a V6 engine named after Enzo
+        Ferrari's recently deceased son.
+      </p>
+      <p>
+        Niki Lauda was signed in 1974, while Luca di Montezemolo was appointed
+        Team Principal the same year, with the Scuderia's fortunes turning
+        around. Ferrari won races in Spain, the Netherlands and Germany, but
+        ultimately Regazzoni lost the World Championship to Emerson Fittipaldi
+        at the final race of the season in the USA.
+      </p>
+      <p>
+        The 1996 season saw Ferrari overhaul their driver line-up, with two-time
+        defending World Champion Michael Schumacher joining alongside Eddie
+        Irvine. The German, who won both titles while with Benetton, brought
+        with him several of the team's technical staff, including Technical
+        Director Ross Brawn and Chief Designer Rory Byrne.
+      </p>
+      <p>
+        Schumacher ended Ferrari's drought, becoming the Scuderia's first
+        Drivers' Champion since Scheckter in 1979. Barrichello finished fourth
+        in the standings, helping Ferrari to claim their second consecutive
+        Constructors' Championship. The triumph kickstarted a historic run for
+        the Scuderia, with Schumacher taking the 2001 title after a dominant
+        season in which he earned nine victories and clinched the championship
+        with four races remaining.
+      </p>
+      <p>
+        The historic run continued in 2004, with Schumacher winning 13 of the 18
+        races, including 12 of the first 13 of the season. The German clinched
+        his seventh and final championship in Belgium, with the Scuderia adding
+        another Constructors' title. Barrichello, who won two races in Italy and
+        China, finished second.
+      </p>
+      <p>
+        Raikkonen won his first race for the team in Australia, becoming the
+        first Ferrari driver to win on his debut since Mansell in 1989. Despite
+        entering the final race of the season trailing McLaren duo Alonso and
+        Lewis Hamilton in the championship standings, the Finn defied the odds
+        to take victory, handing him the world title by just one point.
+      </p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="statTable">
+      <h3>Statistics</h3>
+      <h5>Statistics about the team</h5>
+      <div class="row champ">
+        <div class="col">Total Constructors Championships</div>
+        <div class="col">
+          <span>16</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openCInfo()"
+          /></span>
+          <div class="CInfoBox" [class.visib]="isvisib_C">
+            <p>
+              1961, 1964, 1975, 1976, 1977, 1979, 1982, 1983, 1999, 2000, 2001,
+              2002, 2003, 2004, 2007, 2008
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row driverchamps">
+        <div class="col">Total Drivers Championships</div>
+        <div class="col DInfo">
+          <span>15</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openDInfo()"
+          /></span>
+          <div class="DInfoBox" [class.visib]="isvisib_D">
+            <p>
+              <em>Alberto Ascari</em> <b> X2</b>(1952, 1953),
+              <em> Juan Manuel Fangio</em> <b> X1</b> (1956),
+              <em> Mike Hawthorn</em> <b> X1</b> (1958), <em> Phil Hill</em>
+              <b> X1</b> (1961), <em> John Surtees</em> <b> X1</b> (1964),
+              <em> Nikki Lauda</em> <b> X2</b> (1975, 1977),
+              <em> Jody Scheckter</em> <b> X1</b> (1979),
+              <em> Micheal Schumacher</em> <b> X5</b> (2000, 2001, 2002, 2003,
+              2004), <em> Kimi Raikonen</em> <b> X5</b> (2007)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row wins">
+        <div class="col">Total Race Wins</div>
+        <div class="col">244</div>
+      </div>
+      <div class="row founded">
+        <div class="col">Team Founded</div>
+        <div class="col">1950</div>
+      </div>
+      <div class="row PrevTeam">
+        <div class="col">Previously Known As</div>
+        <div class="col">-</div>
+      </div>
+    </div>
+  </div>
+  <div class="reachout">
+    <div class="reachoutLinks">
+      <div class="reachTitle RO">
+        <h3>Reach out to Redbull</h3>
+      </div>
+      <div class="links RO">
+        <a href="https://www.instagram.com/scuderiaferrari/" target="_blank"
+          ><img src="../../../assets/instagram-1-svgrepo-com.svg" alt="insta"
+        /></a>
+        <a href="https://twitter.com/Scuderiaferrari" target="_blank"
+          ><img
+            src="../../../assets/twitter-color-svgrepo-com.svg"
+            alt="twitter"
+        /></a>
+        <a href="https://www.facebook.com/ScuderiaFerrari" target="_blank"
+          ><img src="../../../assets/facebook-color-svgrepo-com.svg" alt="fb"
+        /></a>
+        <a href="https://www.ferrari.com/en-EN/formula1" target="_blank"
+          ><img
+            src="../../../assets/ferrarilogo.png"
+            alt="website"
+            class="cavalino"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>

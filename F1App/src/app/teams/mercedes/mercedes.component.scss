@@ -1,6 +1,12 @@
-.RBPage{
+$primary_Color:#000;
+$secondaryColor:#00A19B;
+$tertiaryColor:#FFFFFF;
+$quarternary_Color:#c8ccce;
+$dr1_Color:#B4D934;
+$dr2_Color:#017A99;
+.teamPage{
     padding-top: 90px;
-    background-color: #000;
+    background-color: $primary_Color;
     height: 3200px;
 }
 .mainTeam{
@@ -26,7 +32,7 @@
         height: 200px;
         margin: 10px;
         border-radius: 100px;
-        border: #00A19B 15px solid;
+        border: $secondaryColor 15px solid;
         position: absolute;
         top: 40%;
     }
@@ -39,7 +45,7 @@
         top: 80%;
         font-weight: 900;
         font-size: 50px;
-        color: #000;
+        color: $primary_Color;
     }
 }
 .standings{
@@ -53,21 +59,21 @@
     height: 500px;
     padding: 40px;
     h3{
-        color: #00A19B;
+        color: $secondaryColor;
         font-size: 50px;
         font-weight:bold ;
     }
     p{
-        color: #c8ccce;
+        color: $quarternary_Color;
     }
     .teamPrincipal{
         text-align: center;
         h4{
-            color: #fff;
+            color: $tertiaryColor;
             font-weight: bold;
         }
         p{
-            color: #c8ccce;
+            color: $quarternary_Color;
             font-weight: bold
         };
     }
@@ -86,33 +92,33 @@
     text-align: center;
     padding-top: 30px;
     h4{
-        color: #fff;
+        color: $tertiaryColor;
         font-weight: bold;
     }
     p{
         font-weight: bold;
-        color: #c8ccce;
+        color: $quarternary_Color;
     }
 }
-.max_img, .checo_img{
+.dr1_img, .dr2_img{
     display: flex;
     justify-content: center;
     
 }
-.max, .checo {
+.dr1, .dr2 {
     p{
         text-align: center;
     }
 }
-.max_img{
+.dr1_img{
     img{
-        border: #B4D934 5px solid;
+        border: $dr1_Color 5px solid;
 
     }
 }
-.checo_img{
+.dr2_img{
     img{
-        border: #017A99 5px solid;
+        border: $dr2_Color 5px solid;
     }
 }   
 .backgroundInfo{
@@ -123,18 +129,18 @@
         width: 70%;
         margin-top: 30px;
         h3{
-            color: #00A19B;
+            color: $secondaryColor;
             font-size: 50px;
             font-weight:bold ;
             margin-bottom: 40px;
         }
         h5{
-            color: #fff;
+            color: $tertiaryColor;
             font-weight: bold;
             margin-bottom: 40px;
         }
         p{
-            color: #c8ccce;
+            color: $quarternary_Color;
             text-align: justify;
         }
     }
@@ -147,18 +153,18 @@
         width: 80%;
         margin-top: 30px;
         h3{
-            color: #00A19B;
+            color: $secondaryColor;
             font-size: 50px;
             font-weight:bold ;
             margin-bottom: 40px;
         }
         h5{
-            color: #fff;
+            color: $tertiaryColor;
             font-weight: bold;
             margin-bottom: 40px;
         }
         .col{
-            color: #c8ccce;
+            color: $quarternary_Color;
             font-weight: 600;
             padding-top:10px ;
         }
@@ -173,10 +179,10 @@
                 height: 0px;
             }
             em{
-                color: #fff;
+                color: $tertiaryColor;
             }
             b{
-                color: #00A19B;
+                color: $secondaryColor;
             }
         }
         .champ{
@@ -209,7 +215,7 @@
             text-align: center;
             margin-top: 40px;
             h3{
-                color: #00A19B;
+                color: $secondaryColor;
                 font-size: 50px;
                 font-weight:bold ;
                 margin-bottom: 40px;

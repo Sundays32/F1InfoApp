@@ -10,6 +10,14 @@ import { TeamsComponent } from './teams/teams.component';
 import { TeamComponent } from './teams/team/team.component';
 import { RedbullComponent } from './teams/redbull/redbull.component';
 import { MercedesComponent } from './teams/mercedes/mercedes.component';
+import { FerrariComponent } from './teams/ferrari/ferrari.component';
+import { MclarenComponent } from './teams/mclaren/mclaren.component';
+import { AstonMartinComponent } from './teams/aston-martin/aston-martin.component';
+import { AlpineComponent } from './teams/alpine/alpine.component';
+import { WilliamsComponent } from './teams/williams/williams.component';
+import { AlphaTauriComponent } from './teams/alpha-tauri/alpha-tauri.component';
+import { AlfaRomeoComponent } from './teams/alfa-romeo/alfa-romeo.component';
+import { HaasComponent } from './teams/haas/haas.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +27,15 @@ import { MercedesComponent } from './teams/mercedes/mercedes.component';
     TeamsComponent,
     TeamComponent,
     RedbullComponent,
-    MercedesComponent
+    MercedesComponent,
+    FerrariComponent,
+    MclarenComponent,
+    AstonMartinComponent,
+    AlpineComponent,
+    WilliamsComponent,
+    AlphaTauriComponent,
+    AlfaRomeoComponent,
+    HaasComponent
   ],
   imports: [
     BrowserModule,

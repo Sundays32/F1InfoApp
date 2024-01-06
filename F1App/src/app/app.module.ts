@@ -9,6 +9,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { TeamsComponent } from './teams/teams.component';
 import { TeamComponent } from './teams/team/team.component';
 import { RedbullComponent } from './teams/redbull/redbull.component';
+import { MercedesComponent } from './teams/mercedes/mercedes.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RedbullComponent } from './teams/redbull/redbull.component';
     LandingPageComponent,
     TeamsComponent,
     TeamComponent,
-    RedbullComponent
+    RedbullComponent,
+    MercedesComponent
   ],
   imports: [
     BrowserModule,

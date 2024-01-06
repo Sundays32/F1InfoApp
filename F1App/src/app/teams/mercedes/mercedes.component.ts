@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-redbull',
-  templateUrl: './redbull.component.html',
-  styleUrls: ['./redbull.component.scss']
+  selector: 'app-mercedes',
+  templateUrl: './mercedes.component.html',
+  styleUrls: ['./mercedes.component.scss']
 })
-export class RedbullComponent implements OnInit {
+export class MercedesComponent implements OnInit {
 
   isvisib_D:boolean=true;
   isvisib_C:boolean=true;
@@ -26,6 +26,7 @@ export class RedbullComponent implements OnInit {
       this.isvisib_D=true;
     }
   }
+  
   openCInfo(){
     this.isvisib_C_count=this.isvisib_C_count+1;
     if(this.isvisib_C_count%2!=0){

@@ -1,0 +1,183 @@
+<div class="RBPage">
+  <div class="teamName row">
+    <div class="teamLogo col-2">
+      <img src="../../../assets/MercedesLogo.png" alt="RB logo" />
+    </div>
+    <div class="name col-9">
+      <h1>Mercedes-AMG PETRONAS F1 Team</h1>
+    </div>
+    <div class="standings col-1">
+      <img src="../../../assets/silver.svg" alt="constructors" />
+    </div>
+  </div>
+  <div class="mainTeam">
+    <div class="team_det">
+      <h3>Team</h3>
+      <p>Meet the team.</p>
+      <div class="teamPrincipal">
+        <h4>Team Principal</h4>
+        <div class="team_img">
+          <img src="../../../assets/Toto.jpg" alt="Christian Horner" />
+        </div>
+        <p>Toto Wolff</p>
+      </div>
+      <div class="teamDrivers row">
+        <h4>Drivers</h4>
+        <div class="max col">
+          <div class="team_img max_img">
+            <img src="../../../assets/lewis.png" alt="Lewis" />
+          </div>
+          <p>Lewis Hamilton</p>
+        </div>
+        <div class="checo col">
+          <div class="team_img checo_img">
+            <img src="../../../assets/russel.png" alt="Russel" />
+          </div>
+          <p>George Russel</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backgroundInfo">
+    <div class="info">
+      <h3>Background Information</h3>
+      <h5>
+        German manufacturer Mercedes have a rich history in Formula 1. Whilst
+        the team's heritage can be traced back to the 1930s, their first foray
+        into what was by then the official Formula 1 championship came in 1954.
+      </h5>
+      <p>
+        Under the leadership of Alfred Neubauer, the team ran the Mercedes-Benz
+        W196 that featured a conventional open-wheeled configuration and a
+        streamlined form. Mercedes experienced instant success with Juan Manuel
+        Fangio, who joined from Maserati mid-season in time for the French Grand
+        Prix. The Argentine took the chequered flag ahead of teammate Karl
+        Kling, with Fangio adding another three wins during the rest of the
+        season to claim the title.
+      </p>
+      <p>
+        However, the 1955 disaster at the 24 Hours of Le Mans killed
+        Mercedes-Benz driver Pierre Levegh, along with 80 spectators, and
+        resulted in the cancellation of the French, German, Spanish and Swiss
+        Grands Prix. Mercedes opted to withdraw from the world of motorsport,
+        including F1, at the end of the season.
+      </p>
+      <p>
+        Mercedes-Benz's parent company Daimler AG bought a minority stake in the
+        Brawn GP team prior to the start of the 2010 F1 season. A sponsorship
+        deal with Petronas was then struck, with the team rebranded as the
+        Mercedes GP Petronas Formula 1 team. Ross Brawn was kept on as Team
+        Principal, while the outfit continued to use the same base and workforce
+        in Brackley, close to the engine plant in Brixworth.
+      </p>
+      <p>
+        Mercedes brought in the German duo of Nico Rosberg and Michael
+        Schumacher – with the latter returning to F1 after a three-year absence
+        – to be their driver pairing in 2010, while Nick Heidfeld was named as
+        test and reserve driver.
+      </p>
+      <p>
+        F1 introduced 1.6-litre turbocharged V6 engines with a built-in recovery
+        system in 2014, marking the beginning of the hybrid era. The change
+        seemed to propel Mercedes to the front of the grid. Rosberg took victory
+        in the opening race of the campaign in Australia, while Hamilton
+        completed a Grand Slam victory in Malaysia ahead of his teammate, making
+        it Mercedes' first 1-2 finish since the 1955 Italian Grand Prix.
+      </p>
+      <p>
+        Mercedes' dominance continued throughout the season, with the team
+        clinching the Constructors' Championship in Russia, while Hamilton
+        finished 67 points ahead of Rosberg to take the Drivers' title. The
+        Silver Arrows ended the year with 18 poles, 16 wins and 11 1-2 finishes
+        out of 19 races. On average, the nearest non-Mercedes car finished 23.2
+        seconds back during their 16 victories.
+      </p>
+      <p>
+        Mercedes won the constructors championship in 7 consecutive seasons from
+        2014 to 2021, with Rosberg winning in 2016 season and Hamilton winning
+        the rest
+      </p>
+      <p>
+        After several years of dominance in Formula 1, Mercedes faced their
+        strongest competition for some time in 2021, with Red Bull and Max
+        Verstappen proving to be tough opponents.
+      </p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="statTable">
+      <h3>Statistics</h3>
+      <h5>Statistics about the team</h5>
+      <div class="row champ">
+        <div class="col">Total Constructors Championships</div>
+        <div class="col">
+          <span>8</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openCInfo()"
+          /></span>
+          <div class="CInfoBox" [class.visib]="isvisib_C">
+            <p>2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021</p>
+          </div>
+        </div>
+      </div>
+      <div class="row driverchamps">
+        <div class="col">Total Drivers Championships</div>
+        <div class="col DInfo">
+          <span>7</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openDInfo()"
+          /></span>
+          <div class="DInfoBox" [class.visib]="isvisib_D">
+            <p>
+              <em> Juan Manuel Fangio</em> <b> X2</b>(1954,1955),<em>
+                Nico Rosberg</em
+              ><b> X1</b> (2016),<br />
+              <em> Lewis Hamilton</em><b> X6</b> (2014,2015,2017,2018,2019,2020)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row wins">
+        <div class="col">Total Race Wins</div>
+        <div class="col">116</div>
+      </div>
+      <div class="row founded">
+        <div class="col">Team Founded</div>
+        <div class="col">1954 (Re-entered in 2010)</div>
+      </div>
+      <div class="row PrevTeam">
+        <div class="col">Previously Known As</div>
+        <div class="col">Brawn GP</div>
+      </div>
+    </div>
+  </div>
+  <div class="reachout">
+    <div class="reachoutLinks">
+      <div class="reachTitle RO">
+        <h3>Reach out to Mercedes</h3>
+      </div>
+      <div class="links RO">
+        <a href="https://www.instagram.com/MercedesAMGF1/" target="_blank"
+          ><img src="../../../assets/instagram-1-svgrepo-com.svg" alt="insta"
+        /></a>
+        <a href="https://twitter.com/MERCEDESAMGF1" target="_blank"
+          ><img
+            src="../../../assets/twitter-color-svgrepo-com.svg"
+            alt="twitter"
+        /></a>
+        <a href="https://www.facebook.com/MercedesAMGF1" target="_blank"
+          ><img src="../../../assets/facebook-color-svgrepo-com.svg" alt="fb"
+        /></a>
+        <a href="https://www.mercedesamgf1.com/" target="_blank"
+          ><img src="../../../assets/merc.png" alt="website"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>

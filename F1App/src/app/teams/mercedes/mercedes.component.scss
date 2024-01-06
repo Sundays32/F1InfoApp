@@ -1,22 +1,23 @@
 .RBPage{
     padding-top: 90px;
-    background-color: #030E1D;
+    background-color: #000;
     height: 3200px;
 }
 .mainTeam{
     height: 1000px !important;
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../../../assets/redbull-logo-svgrepo-com.png);
+    background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url(../../../assets/merc.png);
     background-repeat: no-repeat;
-    background-size: 1520px;
+    background-size: cover;
     background-position: center;
     padding: 0%;
 }
 .teamName{
     height: 400px;
-    background-image: url(../../../assets/rb19.jpg);
+    background-image: url(../../../assets/w14.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y: -150px;
+    background-size: 2500px;
+    background-position-y: -570px;
+    background-position-x: -410px;
     position: relative;
 }
 .teamLogo{
@@ -25,7 +26,7 @@
         height: 200px;
         margin: 10px;
         border-radius: 100px;
-        border: goldenrod 15px solid;
+        border: #00A19B 15px solid;
         position: absolute;
         top: 40%;
     }
@@ -38,7 +39,7 @@
         top: 80%;
         font-weight: 900;
         font-size: 50px;
-        color: #030E1D;
+        color: #000;
     }
 }
 .standings{
@@ -52,12 +53,12 @@
     height: 500px;
     padding: 40px;
     h3{
-        color: #DF003C;
+        color: #00A19B;
         font-size: 50px;
         font-weight:bold ;
     }
     p{
-        color: #FFD300;
+        color: #c8ccce;
     }
     .teamPrincipal{
         text-align: center;
@@ -66,7 +67,7 @@
             font-weight: bold;
         }
         p{
-            color: #fff;
+            color: #c8ccce;
             font-weight: bold
         };
     }
@@ -88,6 +89,10 @@
         color: #fff;
         font-weight: bold;
     }
+    p{
+        font-weight: bold;
+        color: #c8ccce;
+    }
 }
 .max_img, .checo_img{
     display: flex;
@@ -101,13 +106,13 @@
 }
 .max_img{
     img{
-        border: goldenrod 5px solid;
+        border: #B4D934 5px solid;
 
     }
 }
 .checo_img{
     img{
-        border: silver 5px solid;
+        border: #017A99 5px solid;
     }
 }   
 .backgroundInfo{
@@ -118,18 +123,18 @@
         width: 70%;
         margin-top: 30px;
         h3{
-            color: #DF003C;
+            color: #00A19B;
             font-size: 50px;
             font-weight:bold ;
             margin-bottom: 40px;
         }
         h5{
-            color: #FFD300;
+            color: #fff;
             font-weight: bold;
             margin-bottom: 40px;
         }
         p{
-            color: #fff;
+            color: #c8ccce;
             text-align: justify;
         }
     }
@@ -142,18 +147,18 @@
         width: 80%;
         margin-top: 30px;
         h3{
-            color: #DF003C;
+            color: #00A19B;
             font-size: 50px;
             font-weight:bold ;
             margin-bottom: 40px;
         }
         h5{
-            color: #FFD300;
+            color: #fff;
             font-weight: bold;
             margin-bottom: 40px;
         }
         .col{
-            color: #fff;
+            color: #c8ccce;
             font-weight: 600;
             padding-top:10px ;
         }
@@ -168,10 +173,10 @@
                 height: 0px;
             }
             em{
-                color: #FFD300;
+                color: #fff;
             }
             b{
-                color: #DF003C;
+                color: #00A19B;
             }
         }
         .champ{
@@ -204,7 +209,7 @@
             text-align: center;
             margin-top: 40px;
             h3{
-                color: #DF003C;
+                color: #00A19B;
                 font-size: 50px;
                 font-weight:bold ;
                 margin-bottom: 40px;

@@ -1,28 +1,35 @@
-name: NodeJS with Grunt
+name: GitHub Pages
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+    - main
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
-
     steps:
-    - uses: actions/checkout@v3
+    - name: Checkout
+      uses: actions/checkout@v2
 
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v3
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run tests
+      run: npm run test:headless
 
     - name: Build
-      run: |
-        npm install
-        grunt
+      run: npm run build:prod
+
+    - name: Deploy
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        publish_dir: dist/angular-github-actions
+        enable_jekyll: true

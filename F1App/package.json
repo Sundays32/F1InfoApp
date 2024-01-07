@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
+
     "build:prod": "ng build --configuration production --base-href https://Sundays32.github.io/angular-github-actions/",
     "test:headless": "ng test --watch=false --browsers=ChromeHeadless"
   },

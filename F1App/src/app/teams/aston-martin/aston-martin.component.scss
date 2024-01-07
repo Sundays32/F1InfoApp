@@ -1,0 +1,228 @@
+$primary_Color:#00675F;
+$secondaryColor:#CFDD00;
+$tertiaryColor:#FFFFFF;
+$quarternary_Color:#000000;
+$dr1_Color:#0147C3;
+$dr2_Color:#036452;
+$banner_img:url(../../../assets/Aston-Martin-AMR23.jpg);
+$team_background:url(../../../assets/aston-martin-alt-svgrepo-com.svg);
+
+
+.teamPage{
+    // padding-top: 90px;
+    background-color: $primary_Color;
+    height: 3350px;
+}
+.mainTeam{
+    height: 1000px !important;
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),$team_background;
+    background-repeat: no-repeat;
+    background-size: 1520px;
+    background-position: center;
+    padding: 0%;
+}
+.teamName{
+    height: 490px;
+    background-image: $banner_img;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -320px;
+    position: relative;
+}
+.teamLogo{
+    img{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        border-radius: 100px;
+        border: $secondaryColor 15px solid;
+        position: absolute;
+        top: 50%;
+    }
+    
+}
+.name{
+    position: relative;
+    h1{
+        position: absolute;
+        top: 85%;
+        font-weight: 900;
+        font-size: 50px;
+        color: $secondaryColor;
+    }
+}
+.standings{
+    img{
+        padding-top: 30px;
+        width: 100px;
+        height: 100px;
+    }
+}
+.mainTeam{
+    height: 500px;
+    padding: 40px;
+    h3{
+        color: $secondaryColor;
+        font-size: 50px;
+        font-weight:bold ;
+    }
+    p{
+        color: $tertiaryColor;
+    }
+    .teamPrincipal{
+        text-align: center;
+        h4{
+            color: $secondaryColor;
+            font-weight: bold;
+        }
+        p{
+            color: $tertiaryColor;
+            font-weight: bold
+        };
+    }
+}
+.team_img{
+    img{
+        height: 300px;
+        width: 300px;
+        border-radius: 150px;
+                
+     }
+    
+            
+}
+.teamDrivers{
+    text-align: center;
+    padding-top: 30px;
+    h4{
+        color: $secondaryColor;
+        font-weight: bold;
+    }
+}
+.dr1_img, .dr2_img{
+    display: flex;
+    justify-content: center;
+    
+}
+.dr1, .dr2 {
+    p{
+        text-align: center;
+    }
+}
+.dr1_img{
+    img{
+        border: $dr1_Color 10px solid;
+
+    }
+}
+.dr2_img{
+    img{
+        border: $dr2_Color 10px solid;
+    }
+}   
+.backgroundInfo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    .info{
+        width: 70%;
+        margin-top: 30px;
+        h3{
+            color: $secondaryColor;
+            font-size: 50px;
+            font-weight:bold ;
+            margin-bottom: 40px;
+        }
+        h5{
+            color: $tertiaryColor;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        p{
+            color: $quarternary_Color;
+            text-align: justify;
+            font-weight: bold;
+        }
+    }
+} 
+.stats{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .statTable{
+        width: 80%;
+        margin-top: 30px;
+        h3{
+            color: $secondaryColor;
+            font-size: 50px;
+            font-weight:bold ;
+            margin-bottom: 40px;
+        }
+        h5{
+            color: $tertiaryColor;
+            font-weight: bold;
+            margin-bottom: 40px;
+        }
+        .col{
+            color: $quarternary_Color;
+            font-weight: 600;
+            padding-top:10px ;
+        }
+        .driverchamps{
+            img{
+                padding-left: 5px;
+                width: 20px;
+                filter: invert(1);
+            }
+            .visib{
+                visibility: hidden;
+                height: 0px;
+            }
+            em{
+                color:$tertiaryColor;
+            }
+            b{
+                color: $secondaryColor;
+            }
+        }
+        .champ{
+            img{
+                padding-left: 5px;
+                width: 20px;
+                filter: invert(1);
+            }
+            .visib{
+                visibility: hidden;
+                height: 0px;
+            }
+        }
+    }
+}
+.reachout{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    .reachoutLinks{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        img{
+            width: 50px;
+            margin: 0 10px;
+        }
+        .RO{
+            text-align: center;
+            margin-top: 40px;
+            h3{
+                color: $secondaryColor;
+                font-size: 50px;
+                font-weight:bold ;
+                margin-bottom: 40px;
+            }
+            .cavalino{
+                width: 80px;
+            }
+        }
+    }
+}

@@ -4,25 +4,27 @@ $tertiaryColor:#FFFFFF;
 $quarternary_Color:#c8ccce;
 $dr1_Color:#B4D934;
 $dr2_Color:#017A99;
+$banner_img:url(../../../assets/w14.jpg);
+$team_background:url(../../../assets/merc.png);
 .teamPage{
-    padding-top: 90px;
+    // padding-top: 90px;
     background-color: $primary_Color;
     height: 3200px;
 }
 .mainTeam{
     height: 1000px !important;
-    background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url(../../../assets/merc.png);
+    background: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),$team_background;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 0%;
 }
 .teamName{
-    height: 400px;
-    background-image: url(../../../assets/w14.jpg);
+    height: 490px;
+    background-image:$banner_img;
     background-repeat: no-repeat;
     background-size: 2500px;
-    background-position-y: -570px;
+    background-position-y: -530px;
     background-position-x: -410px;
     position: relative;
 }
@@ -34,7 +36,7 @@ $dr2_Color:#017A99;
         border-radius: 100px;
         border: $secondaryColor 15px solid;
         position: absolute;
-        top: 40%;
+        top: 50%;
     }
     
 }
@@ -42,13 +44,14 @@ $dr2_Color:#017A99;
     position: relative;
     h1{
         position: absolute;
-        top: 80%;
+        top: 85%;
         font-weight: 900;
         font-size: 50px;
         color: $primary_Color;
     }
 }
 .standings{
+    padding-top: 30px;
     img{
         padding-top: 30px;
         width: 100px;

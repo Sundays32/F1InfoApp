@@ -4,25 +4,27 @@ $tertiaryColor:#FFD300;
 $quarternary_Color:#fff;
 $dr1_Color:goldenrod;
 $dr2_Color:silver;
+$banner_img:url(../../../assets/rb19.jpg);
+$team_background:url(../../../assets/redbull-logo-svgrepo-com.png);
 .teamPage{
-    padding-top: 90px;
+    // padding-top: 90px;
     background-color: $primary_Color;
     height: 3200px;
 }
 .mainTeam{
     height: 1000px !important;
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../../../assets/redbull-logo-svgrepo-com.png);
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),$team_background;
     background-repeat: no-repeat;
     background-size: 1520px;
     background-position: center;
     padding: 0%;
 }
 .teamName{
-    height: 400px;
-    background-image: url(../../../assets/rb19.jpg);
+    height: 490px;
+    background-image: $banner_img;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -150px;
+    background-position-y: -100px;
     position: relative;
 }
 .teamLogo{
@@ -33,7 +35,7 @@ $dr2_Color:silver;
         border-radius: 100px;
         border: goldenrod 15px solid;
         position: absolute;
-        top: 40%;
+        top: 53%;
     }
     
 }
@@ -41,13 +43,14 @@ $dr2_Color:silver;
     position: relative;
     h1{
         position: absolute;
-        top: 80%;
+        top: 87%;
         font-weight: 900;
         font-size: 50px;
         color: $primary_Color;
     }
 }
 .standings{
+    padding-top: 40px;
     img{
         padding-top: 30px;
         width: 100px;

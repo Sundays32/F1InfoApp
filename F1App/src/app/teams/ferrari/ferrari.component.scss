@@ -4,6 +4,10 @@ $tertiaryColor:#FFFFFF;
 $quarternary_Color:#000000;
 $dr1_Color:#FFFFFF;
 $dr2_Color:#FFF200;
+$banner_img:url(../../../assets/sf23.jpeg);
+$team_background:url(../../../assets/ferrarilogo.png);
+
+
 .teamPage{
     padding-top: 90px;
     background-color: $primary_Color;
@@ -11,7 +15,7 @@ $dr2_Color:#FFF200;
 }
 .mainTeam{
     height: 1000px !important;
-    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url(../../../assets/ferrarilogo.png);
+    background: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),$team_background;
     background-repeat: no-repeat;
     background-size: 4500px;
     background-position: center;
@@ -19,7 +23,7 @@ $dr2_Color:#FFF200;
 }
 .teamName{
     height: 400px;
-    background-image: url(../../../assets/sf23.jpeg);
+    background-image: $banner_img;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -450px;

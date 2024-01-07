@@ -1,18 +1,25 @@
 .header{
     position: fixed;
-    background-color: #ea0500;
+    // background-color: #ea0500;
+    background-color: transparent;
     height: 90px;
     width: 101%;
     display:flex;
     align-items: center;
     z-index: 5;
     overflow: hidden;
+    .logo{
+        img{
+            width: 150px;
+        }
+    }
     
     .logo-text{
         font-size: xx-large;
         font-weight: bold;
         padding-left: 20px;
-        color: #fff;
+        color: red;
+        // background-color: #000;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-style: italic;
         text-decoration: none;
@@ -34,11 +41,14 @@
             padding: 0 10px;
             list-style-type: none;
             font-weight: bold;
-            color: #fff;
+            color: #000;
             text-decoration: none;
             a{
-                color: #fff;
+                color: #000;
                 text-decoration: none;
+                &:hover{
+                    color: red;
+                }
             }
         }
         .menu_icon{

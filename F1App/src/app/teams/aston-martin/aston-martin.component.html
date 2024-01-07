@@ -1,1 +1,196 @@
-<p>aston-martin works!</p>
+<div class="teamPage">
+  <div class="teamName row">
+    <div class="teamLogo col-2">
+      <img
+        src="../../../assets/aston-martin-alt-svgrepo-com.svg"
+        alt="mcl logo"
+      />
+    </div>
+    <div class="name col-9">
+      <h1>Aston Martin Aramco Cognizant F1 Team</h1>
+    </div>
+  </div>
+  <div class="mainTeam">
+    <div class="team_det">
+      <h3>Team</h3>
+      <p>Meet the team.</p>
+      <div class="teamPrincipal">
+        <h4>Team Principal</h4>
+        <div class="team_img">
+          <img src="../../../assets/Mike_Aston.jpg" alt="Mike Krack" />
+        </div>
+        <p>Mike Krack</p>
+      </div>
+      <div class="teamDrivers row">
+        <h4>Drivers</h4>
+        <div class="dr1 col">
+          <div class="team_img dr1_img">
+            <img src="../../../assets/f1_2023_fa_ast_lg.png" alt="Alonso" />
+          </div>
+          <p>Fernando Alonso</p>
+        </div>
+        <div class="dr2 col">
+          <div class="team_img dr2_img">
+            <img src="../../../assets/f1_2023_ls_ast_lg.png" alt="Lance" />
+          </div>
+          <p>Lance Stroll</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="backgroundInfo">
+    <div class="info">
+      <h3>Background Information</h3>
+      <h5>
+        The Aston Martin team's origins date back to the Jordan Grand Prix
+        outfit that first entered F1 back in 1991. The squad won four races in
+        total over the years, and finished third in the 1999 Constructors'
+        Championship. Financial problems eventually saw them fall off the pace,
+        before team owner Eddie Jordan sold up to the Midland Group in early
+        2005.
+      </h5>
+      <p>
+        Renamed Midland F1 Racing, the team spent two seasons struggling at the
+        back of the field before owner Alex Shnaider sold to Spyker Cars midway
+        through the 2006 campaign. Spyker F1 scored a point in 2007 and briefly
+        led the European Grand Prix with Markus Winkelhock. However, money woes
+        resulted in the outfit being purchased by Indian businessman Vijay
+        Mallya for €88 million. The team was renamed as Force India Formula 1
+        Team.
+      </p>
+      <p>
+        The team started the season strongly, capped off by Perez's third-place
+        finish in Bahrain, marking their first podium result since the 2009
+        Belgian Grand Prix. The Mexican scored the team's third fastest lap in
+        Australia, and the outfit finished the year sixth in the standings with
+        155 points.
+      </p>
+      <p>
+        Although the team only debuted the VJM08 on Day 2 of the third and final
+        2015 pre-season test at Barcelona, Force India had a somewhat strong
+        start to the campaign. Hulkenberg finished seventh in Australia, yet the
+        team went on to finish outside of the points on several occasions.
+      </p>
+      <p>
+        Hulkenberg left in 2017, with Esteban Ocon brought in as his replacement
+        after having driven for Manor in the second half of the previous season.
+        A new sponsorship deal with BWT resulted in a livery change, with the
+        team now sporting a pink design.
+      </p>
+      <p>
+        Perez and Ocon returned for the 2018 campaign, which had a slow start as
+        the drivers finished in the points just once from the opening three
+        races. Perez came home third in the Azerbaijan Grand Prix, and that
+        kicked off a run of four straight finishes in the points for the
+        Mexican. Ocon, though, had to wait until the ninth race of the season in
+        Austria for his first points of the year. Force India were put into
+        administration during the Hungarian Grand Prix weekend, with the legal
+        action kickstarted by creditors, including Perez, in order to allow the
+        team to continue operating while searching for a new owner.
+      </p>
+      <p>
+        The team were eventually purchased by a consortium led by Lawrence
+        Stroll. The association were only able to buy the assets of the team,
+        resulting in Force India being excluded from the championship and
+        replaced by the new Force India Racing Point outfit. The new squad were
+        unable to keep any of the points scored by the old team.
+      </p>
+      <p>
+        Prior to the start of the 2019 season, the Force India name was dropped,
+        with the team competing as Racing Point F1 Team. Lance Stroll, son of
+        Lawrence, and Perez were the team's drivers for the campaign, scoring
+        points at the first four races to go along with a double points finish
+        in Azerbaijan. However, they struggled during the middle of the year,
+        with Stroll finishing ninth in Canada and ending a run of six races
+        without points.
+      </p>
+      <p>
+        After 61 years, Aston Martin finally returned to F1 as a constructor in
+        2021. Led by new owner and CEO Lawrence Stroll and Team Principal Otmar
+        Szafnauer, the green machine was back racing in the top category of
+        motorsport.
+      </p>
+      <p>
+        Following Vettel's decision to walk away from Formula 1, it was
+        announced that Fernando Alonso would replace him at Aston Martin in
+        2023. The team showed great improvment in performance in the 2023
+        season, scoring multiple podiums but without any wins. The team finished
+        the season at 5th position
+      </p>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="statTable">
+      <h3>Statistics</h3>
+      <h5>Statistics about the team</h5>
+      <div class="row champ">
+        <div class="col">Total Constructors Championships</div>
+        <div class="col">
+          <span>0</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openCInfo()"
+          /></span>
+          <div class="CInfoBox" [class.visib]="isvisib_C">
+            <p>-</p>
+          </div>
+        </div>
+      </div>
+      <div class="row driverchamps">
+        <div class="col">Total Drivers Championships</div>
+        <div class="col DInfo">
+          <span>0</span
+          ><span
+            ><img
+              src="../../../assets/down-arrow-svgrepo-com.svg"
+              alt="more info"
+              (click)="openDInfo()"
+          /></span>
+          <div class="DInfoBox" [class.visib]="isvisib_D">
+            <p>-</p>
+          </div>
+        </div>
+      </div>
+      <div class="row wins">
+        <div class="col">Total Race Wins</div>
+        <div class="col">0</div>
+      </div>
+      <div class="row founded">
+        <div class="col">Team Founded</div>
+        <div class="col">1991 (As Jordan Formula 1 Team)</div>
+      </div>
+      <div class="row PrevTeam">
+        <div class="col">Previously Known As</div>
+        <div class="col">Racing Point Formula 1 Team</div>
+      </div>
+    </div>
+  </div>
+  <div class="reachout">
+    <div class="reachoutLinks">
+      <div class="reachTitle RO">
+        <h3>Reach out to Mclaren</h3>
+      </div>
+      <div class="links RO">
+        <a href="https://www.instagram.com/astonmartinf1/" target="_blank"
+          ><img src="../../../assets/instagram-1-svgrepo-com.svg" alt="insta"
+        /></a>
+        <a href="https://twitter.com/AstonMartinF1" target="_blank"
+          ><img
+            src="../../../assets/twitter-color-svgrepo-com.svg"
+            alt="twitter"
+        /></a>
+        <a href="https://www.facebook.com/AstonMartinF1Team/" target="_blank"
+          ><img src="../../../assets/facebook-color-svgrepo-com.svg" alt="fb"
+        /></a>
+        <a href="https://www.astonmartinf1.com/en-GB/" target="_blank"
+          ><img
+            src="../../../assets/aston-martin-alt-svgrepo-com.svg"
+            alt="website"
+            class="cavalino"
+        /></a>
+      </div>
+    </div>
+  </div>
+</div>

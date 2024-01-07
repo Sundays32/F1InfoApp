@@ -155,15 +155,17 @@
     }
 }
 .footerLanding{
-    background-color: #ea0500;
+    background:url(../../assets/checkeredFlag.jpg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding: 5px;
     ul{
         margin-bottom: 0px;
         li{
             list-style-type: none;
-            color: #fff;
-            font-weight: bolder;
+            color: red;
+            font-weight: 900;
         }
     }
     img{
